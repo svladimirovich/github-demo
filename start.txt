@@ -1,1 +1,20 @@
-Test text file that I write to disk
+Test text file that I write to disk. Say whaaa?
+I am going to input a lot of freaken text so that I can check this comparing tool that I have.
+The tool is somekind of a light visual studio program called "Code".
+
+
+This is the contents of my ~/.gitconfig file:
+[user]
+	name = mikser.vladimirovich
+	email = mikser.vladimirovich@yandex.ru
+[core]
+	editor = code -multiInst -nosession
+
+here are the commands that I've input to make these:
+>git config --global user.name "..."
+>git config --global user.email "...@.."
+>git config --global core.editor "code -multiInst -nosession"
+
+The last one sets default text editor from "vi" to Visual Studio Code so that the following command:
+>git config --global -e
+opens global configuration file (~/.gitconfig) in Visual Studio Code to edit it instead of "vi" editor
