@@ -5,8 +5,8 @@ The tool is somekind of a light visual studio program called "Code".
 
 This is the contents of my ~/.gitconfig file:
 [user]
-	name = mikser.vladimirovich
-	email = mikser.vladimirovich@yandex.ru
+	name = mikser.-----
+	email = mikser.----@----.--
 [core]
 	editor = code -multiInst -nosession
 
@@ -18,3 +18,5 @@ here are the commands that I've input to make these:
 The last one sets default text editor from "vi" to Visual Studio Code so that the following command:
 >git config --global -e
 opens global configuration file (~/.gitconfig) in Visual Studio Code to edit it instead of "vi" editor
+
+checking in stuff from my work computer
